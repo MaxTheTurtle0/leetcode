@@ -9,7 +9,7 @@ pub fn fizz_buzz(n: i32) -> Vec<String> {
             string.push_str("Buzz");
         }
 
-        if i % 5 != 0 && i % 3 != 0 {
+        if string.is_empty() {
             string.push_str(i.to_string().as_str());
         }
         result.push(string);
