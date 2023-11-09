@@ -1,4 +1,4 @@
-mod middle_of_linked_list;
+mod length_of_last_word;
 
 fn main() {
 }
