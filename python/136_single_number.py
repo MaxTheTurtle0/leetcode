@@ -16,3 +16,9 @@ def singleNumber(nums: list[int]) -> int:
         else:
             nums_dict.pop(num)
     return int(list(nums_dict.values())[0])
+
+
+def singleNumberBitwise(nums: list[int]) -> int:
+    answer = 0
+    for num in nums: answer ^= num
+    return answer

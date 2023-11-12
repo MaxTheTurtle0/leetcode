@@ -1,4 +1,4 @@
-mod remove_element;
+mod move_zeros;
 
 fn main() {
 }
