@@ -10,7 +10,7 @@ Problems are organized into folders by their type (Arrays, Strings, etc.). Each 
 
 - **Clone the Repository**: 
 ```bash
-git clone https://github.com/yourusername/leetcode-solutions.git
+git clone https://github.com/MaxTheTurtle0/leetcode-solutions.git
 ```
 - Navigate to a problem folder and run the solution file in the respective language environment.
 
